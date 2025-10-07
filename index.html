@@ -10,9 +10,7 @@
         background-color: #f5f5f5;
         display: flex;
         justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        margin: 0;
+        padding: 2rem 0;
     }
     .card {
         background-color: #fff;
@@ -23,17 +21,12 @@
         text-align: center;
         box-shadow: 0 8px 20px rgba(0,0,0,0.15);
     }
-    .logo {
-        max-width: 120px;
-        margin-bottom: 1rem;
-    }
     .photo {
         width: 120px;
         height: 120px;
         border-radius: 50%;
         object-fit: cover;
         margin-bottom: 1rem;
-        border: 3px solid #007398;
     }
     h1 {
         margin: 0.3rem 0;
@@ -56,13 +49,10 @@
     .contact a:hover {
         color: #e9540d;
     }
-    .buttons {
-        margin-top: 1rem;
-    }
     .btn {
         display: inline-block;
         padding: 0.6rem 1.2rem;
-        margin: 0.3rem;
+        margin: 1rem 0;
         border-radius: 8px;
         border: none;
         color: #fff;
@@ -75,39 +65,42 @@
         background-color: #007398;
     }
     .social a {
-        margin: 0 0.5rem;
-        font-size: 1.2rem;
+        display: inline-block;
+        margin: 0.3rem 0.6rem;
+        font-size: 1rem;
         color: #007398;
         text-decoration: none;
     }
     .social a:hover {
         color: #e9540d;
     }
+    .logo {
+        max-width: 120px;
+        margin-top: 2rem;
+    }
 </style>
 </head>
 <body>
 <div class="card">
-    <img src="logo.png" alt="Logo Vipex" class="logo">
     <img src="rita-gaio.jpg" alt="Rita Gaio" class="photo">
     <h1>Rita Gaio</h1>
-    <h2>Departamento de Marketing · Vipex</h2>
+    <h2>Departamento de Marketing</h2>
 
     <div class="contact">
         <a href="tel:+351911548645">📞 911 548 645</a>
         <a href="mailto:rita.gaio@vipex.pt">✉️ rita.gaio@vipex.pt</a>
-        <a href="https://www.vipex.pt/en/home" target="_blank">🌐 vipex.pt</a>
-        <a href="https://maps.app.goo.gl/QeAVZR8oF2E2f2Xu5" target="_blank">📍 Marinha Grande, Portugal</a>
     </div>
 
-    <div class="buttons">
-        <a href="files/Rita-Gaio.vcf" download class="btn">💾 Descarregar vCard</a>
-    </div>
+    <a href="files/Rita-Gaio.vcf" download class="btn">💾 Descarregar vCard</a>
 
     <div class="social">
+        <a href="https://maps.app.goo.gl/QeAVZR8oF2E2f2Xu5" target="_blank">📍 Localização</a>
+        <a href="https://www.vipex.pt/en/home" target="_blank">🌐 Website</a>
+        <a href="https://www.linkedin.com/company/vipex-plastics" target="_blank">🔗 LinkedIn</a>
         <a href="https://www.facebook.com/Vipex.pt/?locale=pt_PT" target="_blank">👍 Facebook</a>
-        <a href="https://www.linkedin.com/in/rita-gaio-19b0ba159/" target="_blank">🔗 LinkedIn</a>
-        <a href="https://www.linkedin.com/company/vipex-plastics" target="_blank">💼 LinkedIn Empresa</a>
     </div>
+
+    <img src="logo.png" alt="Logo Vipex" class="logo">
 </div>
 </body>
 </html>
